@@ -1,0 +1,45 @@
+.kopf {
+    display: flex;
+    position: fixed;
+    background-color: rgb(44, 44, 44);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    height: 100px;
+    z-index: 999;
+}
+
+.infos {
+    width: 40%;
+    font-size: 1.5rem;
+    color: white;
+    justify-self: left;
+}
+
+.nav_bar {
+    width: 60%;
+    height: 100px;
+    padding: 20px;
+    padding-bottom: 0;
+    color: white;
+    align-items: center;
+    justify-self: right;
+}
+
+.nav_list {
+    font-size: 1.4rem;
+    display: flex;
+    height: 100%;
+    justify-content: space-around;
+    align-items: end;
+    list-style: none;
+    flex-direction: row;
+}
+
+.nav_list a {
+    color: white;
+    text-decoration: none;
+}

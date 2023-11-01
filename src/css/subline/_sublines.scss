@@ -1,0 +1,29 @@
+
+.subheader-container {
+    width: 100%;
+    text-align: center;
+    scroll-snap-stop: always;
+}
+
+.sub-heading .line {
+    border: 1px solid red;
+    opacity: 50%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#anchor-about-me {
+    position: absolute;
+    top: calc(100vh - 101px);
+}
+
+#anchor-project {
+    position: absolute;
+    top: calc(200vh - 201px);
+}
+
+#anchor-contact {
+    position: absolute;
+    top: calc(300vh - 275px);
+}
