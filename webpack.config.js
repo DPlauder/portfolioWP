@@ -10,7 +10,6 @@ const config = {
     filename: 'bundle.js'
   },
   module: {
-    watch: true,
     rules: [
       {
         test: /\.scss$/,
@@ -24,7 +23,17 @@ const config = {
         test: /\.ts(x)?$/,
         loader: 'ts-loader',
         exclude: /node_modules/
-      }
+      },
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'assets/ressource',
+        use: [
+          {
+            loader: 'file-loader',
+          },
+          
+        ],
+      },
     ]
   },
   plugins: [
