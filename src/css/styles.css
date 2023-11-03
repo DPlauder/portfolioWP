@@ -89,18 +89,21 @@ body {
 }
 
 #anchor-about-me {
-  position: absolute;
-  top: calc(100vh - 101px);
+  position: relative;
+  top: -100px;
+  opacity: 0;
 }
 
 #anchor-project {
-  position: absolute;
-  top: calc(200vh - 201px);
+  position: relative;
+  top: -100px;
+  opacity: 0;
 }
 
 #anchor-contact {
-  position: absolute;
-  top: calc(300vh - 275px);
+  position: relative;
+  top: -100px;
+  opacity: 0;
 }
 
 .about-me-container {
@@ -132,6 +135,7 @@ body {
   height: 80%;
   border-radius: 60px;
   text-align: center;
+  box-shadow: 20px 10px 10px gray;
 }
 
 .image-container {
@@ -184,8 +188,7 @@ body {
 .project-content {
   height: 45%;
   width: 80%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -237,7 +240,7 @@ body {
 }
 
 .contact {
-  height: calc(100vh - 101px);
+  height: calc(100vh - 100px);
   width: 100%;
   background-color: white;
 }/*# sourceMappingURL=styles.css.map */

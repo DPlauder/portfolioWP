@@ -14,16 +14,19 @@
 }
 
 #anchor-about-me {
-    position: absolute;
-    top: calc(100vh - 101px);
+    position: relative;
+    top: -100px;
+    opacity: 0;
 }
 
 #anchor-project {
-    position: absolute;
-    top: calc(200vh - 201px);
+    position: relative;
+    top: -100px;
+    opacity: 0;
 }
 
 #anchor-contact {
-    position: absolute;
-    top: calc(300vh - 275px);
+    position: relative;
+    top: -100px;
+    opacity: 0;
 }
