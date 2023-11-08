@@ -26,11 +26,20 @@
 
 .project-info {
     height: 100%;
-    margin: 10px;
+    margin: 20px;
     grid-column: 1;
     grid-row: 2 / span 2;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
+    .project-description{
+        font-size: 1.1rem;
+    }
+    .project-tech{
+        margin-bottom: 10px;
+        h2{
+            margin-bottom: 5px;
+        }
+    }
 
 }
 
@@ -49,17 +58,12 @@
     &:hover{
         cursor: pointer;
         width: 900%;
+        scale: 105%;
         box-shadow: 5px red;
         transition: 0.3s ease-in;
-    }
-
-    &:nth-child(1){
-        //width: 1000%;
     }
 
 }
 .slider-img{
     width: 100%;
-    margin: 5px;
-    background-color: aqua;
 }

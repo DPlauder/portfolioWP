@@ -26,7 +26,7 @@ const config = {
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
-        type: 'assets/ressource',
+        type: 'assets/img',
         use: [
           {
             loader: 'file-loader',

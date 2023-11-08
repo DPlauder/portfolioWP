@@ -1,3 +1,4 @@
+//import "../assets";
 
 class ProjectSlider{
         private sliderParent;
@@ -16,8 +17,10 @@ class ProjectSlider{
     private createImageContainer(container: HTMLDivElement){
         for(let i = 0; i < 4; i++){
             const img_container = document.createElement('div');
-            img_container.classList.add('content', 'slider-img')
+            img_container.classList.add('content', 'slider-img');
+            //img_container.style.backgroundImage = "url('img2.png')";
             container.appendChild(img_container);
+            
 
         }
     }

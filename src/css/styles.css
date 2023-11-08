@@ -206,11 +206,20 @@ body {
 
 .project-info {
   height: 100%;
-  margin: 10px;
+  margin: 20px;
   grid-column: 1;
   grid-row: 2/span 2;
   display: grid;
   grid-template-rows: 1fr 1fr 1fr;
+}
+.project-info .project-description {
+  font-size: 1.1rem;
+}
+.project-info .project-tech {
+  margin-bottom: 10px;
+}
+.project-info .project-tech h2 {
+  margin-bottom: 5px;
 }
 
 .slideshow-container {
@@ -230,17 +239,45 @@ body {
 .content:hover {
   cursor: pointer;
   width: 900%;
+  scale: 105%;
   box-shadow: 5px red;
   transition: 0.3s ease-in;
 }
+
 .slider-img {
   width: 100%;
-  margin: 5px;
-  background-color: aqua;
 }
 
 .contact {
-  height: calc(100vh - 100px);
+  height: calc(100vh - 220px);
   width: 100%;
   background-color: white;
+}
+
+.contact_text {
+  display: grid;
+  height: 100%;
+  padding: 20px;
+  padding-left: 50px;
+  align-content: center;
+}
+.contact_text h3 {
+  font-size: 4rem;
+}
+.contact_text .e-mail {
+  padding-left: 30px;
+  font-size: 2.5rem;
+}
+.contact_text .e-mailat {
+  color: red;
+}
+
+.fuss {
+  height: 120px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  color: white;
+  font-size: 1.3rem;
 }/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,9 @@
+.fuss{
+    height: 120px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    color: white;
+    font-size: 1.3rem;
+}
